@@ -1,0 +1,234 @@
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+a {
+  color: #707070;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  height: 1200px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica;
+  background: #f2f4f7;
+}
+.top-wrap {
+  padding-bottom: 1.1467rem;
+  background-color: #fff;
+}
+.header {
+  height: 2.1333rem;
+  text-align: center;
+  line-height: 2.1333rem;
+  font-size: 0.9333rem;
+  color: #1c1c1c;
+  border-bottom: 1px solid #eaeaea;
+}
+.nav-top {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.2rem 0 1.6rem 0;
+}
+.nav-top .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+}
+.nav-top .item img {
+  width: 3.7067rem;
+  height: 3.7067rem;
+}
+.nav-top .item h4 {
+  font-size: 0.6933rem;
+  color: #707070;
+  font-weight: normal;
+}
+.nav-top .item:nth-child(-n+3) {
+  margin-bottom: 1.653333rem;
+}
+.go-img {
+  padding: 0 0.3733rem;
+}
+.content {
+  padding: 1.0667rem 0.64rem;
+  margin-top: 0.2667rem;
+  background-color: #fff;
+}
+.con-hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.0133rem;
+  line-height: 1.0133rem;
+  margin-bottom: 0.9067rem;
+}
+.con-hd h4 {
+  font-size: 0.7467rem;
+}
+.con-hd h4 .icon {
+  display: inline-block;
+  width: 1.0133rem;
+  height: 1.0133rem;
+  vertical-align: middle;
+  background: url('../icons/i2.png');
+  background-size: 1.0133rem;
+}
+.con-hd .more {
+  font-size: 0.5867rem;
+  color: #999;
+}
+.swiper-container {
+  width: 14.4rem;
+  height: 100%;
+}
+.get_job_focus .get_job_fo .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.4;
+}
+.get_job_focus .get_job_fo .swiper-slide a {
+  width: 9.0133rem;
+  height: 10.0267rem;
+  box-shadow: 0 0px 10px #0000001a;
+}
+.get_job_focus .get_job_fo .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+}
+.get_job_focus .get_job_fo .swiper-slide p {
+  display: none;
+  width: 9.0133rem;
+  margin-top: 0.64rem;
+  font-size: 0.64rem;
+  color: #333;
+}
+.get_job_focus .swiper-wrapper .swiper-slide-active,
+.get_job_focus .swiper-wrapper .swiper-slide-duplicate-active {
+  transform: scale(1);
+  z-index: 999;
+  opacity: 1;
+}
+.get_job_focus .swiper-wrapper .swiper-slide-active p,
+.get_job_focus .swiper-wrapper .swiper-slide-duplicate-active p {
+  display: block;
+}
+.get_job_focus {
+  position: relative;
+}
+.get_job_focus .swiper-button-next,
+.get_job_focus .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  outline: none;
+  color: #333;
+}
+.study_con h4 .icon {
+  background-image: url('../icons/i1.png');
+}
+.study_con {
+  padding-bottom: 3.7333rem;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper .swiper-wrapper {
+  padding: 0.2667rem 0;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  width: 7.7333rem;
+  height: 9.0667rem;
+  border-radius: 0.2667rem;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  z-index: 1;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.study-focus h5 {
+  font-size: 0.64rem;
+  font-weight: normal;
+  color: #333;
+  padding: 0.5333rem 0.2667rem;
+}
+.study-focus p {
+  font-size: 0.64rem;
+  color: #ff4400;
+  padding: 0 0.2667rem;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5333rem 0;
+  height: 2.9333rem;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+}
+.footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer a img {
+  width: 1.04rem;
+  height: 1.0933rem;
+}
+.footer a p {
+  font-size: 0.5867rem;
+  color: #666;
+  padding-bottom: 0.2667rem;
+}

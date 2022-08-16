@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>黑马面面</title>
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    </head>
+
+    <body>
+        <section class="top-wrap">
+            <header class="header">
+                黑马面面
+            </header>
+
+            <nav class="nav-top">
+                <a class="item" href="#">
+                    <img src="./icons/icon1.png" alt="">
+                    <h4>HR面试</h4>
+                </a>
+                <a class="item" href="#">
+                    <img src="./icons/icon2.png" alt="">
+                    <h4>笔试</h4>
+                </a>
+                <a class="item" href="#">
+                    <img src="./icons/icon3.png" alt="">
+                    <h4>技术面试</h4>
+                </a>
+                <a class="item" href="#">
+                    <img src="./icons/icon4.png" alt="">
+                    <h4>模拟面试</h4>
+                </a>
+                <a class="item" href="#">
+                    <img src="./icons/icon5.png" alt="">
+                    <h4>面试技巧</h4>
+                </a>
+                <a class="item" href="#">
+                    <img src="./icons/icon6.png" alt="">
+                    <h4>薪资查询</h4>
+                </a>
+
+            </nav>
+            <section class="go-img">
+                <a href="javascript:;">
+                    <img src="images/go.png" alt="go">
+                </a>
+            </section>
+        </section>
+        <section class="content">
+            <div class="con-hd">
+                <h4>
+                    <i class="icon"></i>
+                    <span>就业指导</span>
+                </h4>
+                <a href="#" alt="more" class="more">更多&gt;&gt;</a>
+            </div>
+            <div class="get_job_focus">
+                <!-- Swiper -->
+                <div class="swiper-container get_job_fo">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/pic.png" alt="" /></a>
+                            <p>老师教你应对面试技巧</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/ldh.jpg" alt="" /></a>
+                            <p>老师教你应对面试技巧</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/3.jpg" alt="" /></a>
+                            <p>老师教你应对面试技巧</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="content study_con">
+            <div class="con-hd">
+                <h4>
+                    <i class="icon"></i>
+                    <span>充电学习</span>
+                </h4>
+                <a href="#" alt="more" class="more">更多&gt;&gt;</a>
+            </div>
+            <div class="study-focus">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/pic1.png" alt="" />
+                                <h5>说低调英语，告别中式英语</h5>
+                                <p>156人学习</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/pic2.png" alt="" />
+                                <h5>说低调英语，告别中式英语</h5>
+                                <p>156人学习</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/pic1.png" alt="" />
+                                <h5>说低调英语，告别中式英语</h5>
+                                <p>156人学习</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/pic2.png" alt="" />
+                                <h5>说低调英语，告别中式英语</h5>
+                                <p>156人学习</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/pic1.png" alt="" />
+                                <h5>说低调英语，告别中式英语</h5>
+                                <p>156人学习</p>
+                            </a>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <a href="#">
+                <img src="icons/home.png" alt="我的首页">
+                <p>首页</p>
+            </a>
+            <a href="#">
+                <img src="icons/ms.png" alt="模拟面试">
+                <p>模拟面试</p>
+            </a>
+            <a href="#">
+                <img src="icons/net.png" alt="技术面试">
+                <p>技术面试</p>
+            </a>
+            <a href="#">
+                <img src="icons/user.png" alt="我的中心">
+                <p>我的中心</p>
+            </a>
+        </footer>
+        <script src="./js/flexible.js"></script>
+        <script src="./js/swiper.min.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            (function () {
+                var swiper = new Swiper('.get_job_fo', {
+                    // 能够显示的 slider的个数
+                    slidesPerView: 2,
+                    // 每一个slide之间的距离
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    loop: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            })();
+        </script>
+        <script>
+            (function () {
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 2.5,
+                    spaceBetween: 20,
+                });
+            })();
+        </script>
+    </body>
+
+</html>
